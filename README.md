@@ -2,9 +2,10 @@
 
 <br>
 
-![AWS](https://img.shields.io/badge/AWS-Tools-orange) ![Python](https://img.shields.io/badge/Python-3.12%2B-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-MIT-green) ![AWS](https://img.shields.io/badge/AWS-AWS_Native-orange) ![AWS](https://img.shields.io/badge/AWS-Tools-orange) ![Python](https://img.shields.io/badge/Python-3.12%2B-blue) ![#AWSAlwaysFreeChallenge](https://img.shields.io/badge/AWS-AlwaysFreeChallenge-orange)
 
-A collection of tools for exporting various AWS data.<br>Those are part of [**AWS Native Observability Dashboard**](https://github.com/Hideki-Morita/aws-native-observability-dashboard) as The data sources of it.
+A collection of tools for exporting various AWS data from a complex AWS environment adopting a multi-account strategy.  
+Those are part of [<mark>**AWS Native Cross-account Observability Dashboard**</mark>](https://github.com/Hideki-Morita/aws-native-observability-dashboard) as The data sources of it.
 
 ---
 
@@ -68,7 +69,7 @@ A collection of tools for exporting various AWS data.<br>Those are part of [**AW
       - [✰ Response Syntax](#-response-syntax-2)
     - [☻ 🟢Free Tier Usage Exporter API](#-free-tier-usage-exporter-api)
       - [✰ Response Syntax](#-response-syntax-3)
-  - [☺︎ License](#︎-license)
+  - [☺ License](#-license)
 
 ---
 
@@ -76,15 +77,11 @@ A collection of tools for exporting various AWS data.<br>Those are part of [**AW
 
 ## ☺ Installation
 
-<br>
-
 ---
 
 <br>
 
 ### ☻ Requirements
-
-<br>
 
 ---
 
@@ -122,6 +119,7 @@ A collection of tools for exporting various AWS data.<br>Those are part of [**AW
 
 <br>
 
+> 💡 **Tip:**  
 >|🙃 If you want to run those tools as a Python script, you'll need to modify this line:|
 >|---|
 >
@@ -476,9 +474,9 @@ e.g.,
 
 |||
 |---|---|
-|Base URL| http://localhost:[port]/**organization** |
-|Sub URL| http://localhost:[port]/**organization**/**policies** |
-|Sub URL| http://localhost:[port]/**organization**/**access-report** |
+|Base URL| http://localhost:[port]/<mark>**organization**</mark> |
+|Sub URL | http://localhost:[port]/<mark>**organization**</mark>/<mark>**policies**</mark> |
+|Sub URL | http://localhost:[port]/<mark>**organization**</mark>/<mark>**access-report**</mark> |
 |Port (default: <mark>**7723**</mark>)|You can specify a different port using the `--port` argument when running the Flask app.|
 |HTTP Method|**GET**|
 |Query Parameters|None|
@@ -623,8 +621,8 @@ e.g.,
 
 |||
 |---|---|
-|Base URL| http://localhost:[port]/**identity-center** |
-|Sub URL| http://localhost:[port]/**identity-center**/**permsets** |
+|Base URL| http://localhost:[port]/<mark>**identity-center**</mark> |
+|Sub URL | http://localhost:[port]/<mark>**identity-center**</mark>/<mark>**permsets**</mark> |
 |Port (default: <mark>**11121**</mark>)|You can specify a different port using the `--port` argument when running the Flask app.|
 |HTTP Method|**GET**|
 |Query Parameters|None|
@@ -766,7 +764,7 @@ e.g.,
 
 |||
 |---|---|
-|Base URL| http://localhost:[port]/**multi-account-auth**/[Query] |
+|Base URL| http://localhost:[port]/<mark>**multi-account-auth**</mark>/[Query] |
 |Port (default: <mark>**1989**</mark>)|You can specify a different port using the `--port` argument when running the Flask app.|
 |HTTP Method|**GET**|
 |Query Parameters|**filter_type**: <mark>(Required)</mark> One of the following values:<br> - **`User`**, **`Group`**, **`Role`**, **`LocalManagedPolicy`**, **`AWSManagedPolicy`**|
@@ -875,8 +873,8 @@ e.g.,
 
 |||
 |---|---|
-|Base URL| http://localhost:[port]/**freetier** |
-|Sub URL| http://localhost:[port]/**freetier**/**cost-explorer**?[Query] |
+|Base URL| http://localhost:[port]/<mark>**freetier**</mark> |
+|Sub URL | http://localhost:[port]/<mark>**freetier**</mark>/<mark>**cost-explorer**</mark>?[Query] |
 |Port (default: <mark>**4921**</mark>)|You can specify a different port using the `--port` argument when running the Flask app.|
 |HTTP Method|**GET**|
 |Query Parameters|- **`usage_types`**: <mark>(Required)</mark> Comma-separated list of usage types<br> (e.g., `USE1-DataScanned-Bytes,USW2-DataScanned-Bytes`)<br>- `time_periods`: (Optional) Start and end date in `YYYY-MM-DD,YYYY-MM-DD` format|
@@ -935,8 +933,8 @@ e.g.,
 
 <br>
 
-## ☺︎ License
+## ☺ License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
