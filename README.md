@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green) ![AWS](https://img.shields.io/badge/AWS-AWS_Native-orange) ![AWS](https://img.shields.io/badge/AWS-Tools-orange) ![Python](https://img.shields.io/badge/Python-3.12%2B-blue) ![#AWSAlwaysFreeChallenge](https://img.shields.io/badge/AWS-AlwaysFreeChallenge-orange)
 
 A collection of tools for exporting various AWS data from a complex AWS environment adopting a multi-account strategy.  
-Those are part of [<mark>**AWS Native Cross-account Observability Dashboard**</mark>](https://github.com/Hideki-Morita/aws-native-observability-dashboard) as The data sources of it.
+Those are part of our [<mark>**AWS Native Cross-account Observability Dashboard**</mark>](https://github.com/Hideki-Morita/aws-native-observability-dashboard) as The data sources of it.
 
 ---
 
