@@ -11,7 +11,7 @@ Those are part of our [<mark>**AWS Native Cross-account Observability Dashboard*
 
 <br>
 
-## ☺ Features
+## 🪩 Features
 
 <br>
 
@@ -40,13 +40,13 @@ Those are part of our [<mark>**AWS Native Cross-account Observability Dashboard*
 
 <br>
 
-## ☺ Table of Contents
+## 🪩 Table of Contents
 
 - [AWS Native Observability Exporters](#aws-native-observability-exporters)
-  - [☺ Features](#-features)
+  - [🪩 Features](#-features)
     - [☻ Project Phases](#-project-phases)
-  - [☺ Table of Contents](#-table-of-contents)
-  - [☺ Installation](#-installation)
+  - [🪩 Table of Contents](#-table-of-contents)
+  - [🪩 Installation](#-installation)
     - [☻ Requirements](#-requirements)
       - [✰ Python modules](#-python-modules)
       - [✰ AWS PoLP Permissions](#-aws-polp-permissions)
@@ -55,12 +55,12 @@ Those are part of our [<mark>**AWS Native Cross-account Observability Dashboard*
       - [🐾 2. Install the Package as OS Command](#-2-install-the-package-as-os-command)
       - [🐾 3. Deactivate the Virtual Environment](#-3-deactivate-the-virtual-environment)
       - [🐾 4. (Option) Uninstall the Package](#-4-option-uninstall-the-package)
-  - [☺ Usage](#-usage)
+  - [🪩 Usage](#-usage)
     - [☻ 🔴AWS Organizations Exporter](#-aws-organizations-exporter)
     - [☻ 🔴AWS Identity Center Exporter](#-aws-identity-center-exporter)
     - [☻ 🔴AWS Multi-Account IAM Exporter](#-aws-multi-account-iam-exporter)
     - [☻ 🟢AWS Free Tier Usage Exporter](#-aws-free-tier-usage-exporter)
-  - [☺ API Documentation](#-api-documentation)
+  - [🪩 API Documentation](#-api-documentation)
     - [☻ 🔴Organizations Exporter API](#-organizations-exporter-api)
       - [✰ Response Syntax](#-response-syntax)
     - [☻ 🔴Identity Center Exporter API](#-identity-center-exporter-api)
@@ -69,13 +69,13 @@ Those are part of our [<mark>**AWS Native Cross-account Observability Dashboard*
       - [✰ Response Syntax](#-response-syntax-2)
     - [☻ 🟢Free Tier Usage Exporter API](#-free-tier-usage-exporter-api)
       - [✰ Response Syntax](#-response-syntax-3)
-  - [☺ License](#-license)
+  - [🪩 License](#-license)
 
 ---
 
 <br>
 
-## ☺ Installation
+## 🪩 Installation
 
 ---
 
@@ -373,7 +373,7 @@ When you're done working on the project, deactivate the virtual environment:
 
 <br>
 
-## ☺ Usage
+## 🪩 Usage
 
 <br>
 
@@ -462,7 +462,7 @@ e.g.,
 
 <br>
 
-## ☺ API Documentation
+## 🪩 API Documentation
 
 <br>
 
@@ -933,7 +933,7 @@ e.g.,
 
 <br>
 
-## ☺ License
+## 🪩 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
